@@ -1,0 +1,5 @@
+{
+    // Ruta al archivo de datos
+    "DATA_FILE_PATH": "input\\farmers-protest-tweets-2021-2-4.json",
+    "REQUIREMENTS":"input\\requirements.txt"
+  }
