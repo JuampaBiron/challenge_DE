@@ -6,34 +6,31 @@ import json
 import os
 import pandas as pd
 import emoji
+from base import Base
 
-file_path = "input\\farmers-protest-tweets-2021-2-4.json"
-complete_file_path = os.path.join(os.getcwd(), file_path)
+file_path = Base().twiter_file_path
 
-@profile
-def q2_memory(file_path: str) -> List[Tuple[str, int]]:
-    emoji_count = Counter()
-
-    # Leer el archivo JSON línea por línea y procesar en una sola pasada
-    with open(file_path, 'r') as file:
+#@profile
+def q2_memory(file_path: str) -> List[Tuple[str, int]]: #104.4 MiB max 304.64s
+    emoji_count = {}  # Diccionario para contar emojis
+    # Procesar el archivo línea por línea
+    with open(file_path, 'r', encoding='utf-8') as file:  # Asegúrate de abrir el archivo con la codificación correcta
         for line in file:
-            try:
-                json_object = json.loads(line)  # Cargar un objeto JSON a la vez
-                content = json_object.get('content')  # Obtener el contenido
-            except json.JSONDecodeError:
-                continue  # Ignorar líneas que no se pueden decodificar
-            
-            if content:  # Solo procesar si el contenido no es nulo
-                # Contar emojis directamente en el contenido
-                # Usar un conjunto para verificar la existencia de emojis
+            data = json.loads(line)  # Cargar el objeto JSON
+            content = data.get('content')  # Obtener contenido
+            # Contar emojis en el contenido
+            if isinstance(content, str):
                 for c in content:
-                    if c in emoji.EMOJI_DATA:
-                        emoji_count[c] += 1  # Contar emojis de forma manual para reducir uso de memoria
-
+                    if c in emoji.EMOJI_DATA:  # Verificar si el carácter es un emoji
+                        if c in emoji_count:
+                            emoji_count[c] += 1  # Incrementar el contador si ya existe
+                        else:
+                            emoji_count[c] = 1  # Inicializar el contador si no existe
     # Obtener los 5 emojis más comunes
-    top_emojis = emoji_count.most_common(5)
+    top_emojis = sorted(emoji_count.items(), key=lambda x: x[1], reverse=True)[:5]
     return top_emojis
 
-
-q2_memory(complete_file_path)
-cProfile.run("q2_memory(complete_file_path)", sort='tottime')
+if __name__ == "__main__":
+    # Llamar a la función con el path correcto
+    q2_memory(file_path)
+    cProfile.run("q2_memory(file_path)", sort='tottime')

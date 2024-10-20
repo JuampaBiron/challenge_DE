@@ -1,5 +1,6 @@
 {
     // Ruta al archivo de datos
+    "PROJECT_FOLDER":"C:\\Users\\JuanPabloBiron\\jp\\challenge_DE\\",
     "DATA_FILE_PATH": "input\\farmers-protest-tweets-2021-2-4.json",
     "REQUIREMENTS":"input\\requirements.txt"
   }
