@@ -12,11 +12,11 @@ from collections import Counter
 file_path = Base().twiter_file_path
 mention_pattern = re.compile(r'[@＠]([a-zA-Z0-9_]{1,20})(/[a-zA-Z][a-zA-Z0-9_-]{0,24})?')
 
-def extract_usernames(content: str) -> List[str]:
-    return [match.group(1) for match in mention_pattern.finditer(content)] #almacenamos resultados en una lista. Almacenar en una lista puede reducir el tiempo total de ejecución.
-
+def extract_usernames(content: str): 
+    for match in mention_pattern.finditer(content):
+        yield match.group(1)  # Generar usernames uno a uno, sin almacenar en lista
 @profile
-def q3_memory(file_path: str) -> List[Tuple[str, int]]: #103.5 MiB max 12.89 s
+def q3_memory(file_path: str) -> List[Tuple[str, int]] :#107 MiB, 12.9s
     dict_username_count = defaultdict(int)  # Usar un diccionario simple
 
     with open(file_path, 'r', buffering=8192) as file:
@@ -32,11 +32,9 @@ def q3_memory(file_path: str) -> List[Tuple[str, int]]: #103.5 MiB max 12.89 s
             except json.JSONDecodeError:
                 continue  # Ignorar líneas que no sean JSON válidos
 
-    # Obtener los 5 usernames más comunes
-    top_usernames = sorted(dict_username_count.items(), key=lambda x: x[1], reverse=True)[:5]
+    # Obtener los 10 usernames más comunes
+    top_usernames = sorted(dict_username_count.items(), key=lambda x: x[1], reverse=True)[:10]
     return top_usernames
 
 if __name__ == "__main__":
-    # Llamar a la función con el path correcto
-    q3_memory(file_path)
     cProfile.run("q3_memory(file_path)", sort='tottime')

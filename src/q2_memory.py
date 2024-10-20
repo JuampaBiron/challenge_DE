@@ -1,10 +1,7 @@
 from typing import List, Tuple
-from collections import Counter
 from memory_profiler import profile, memory_usage
 import cProfile
 import json
-import os
-import pandas as pd
 import emoji
 from base import Base
 
@@ -31,6 +28,4 @@ def q2_memory(file_path: str) -> List[Tuple[str, int]]: #104.4 MiB max 304.64s
     return top_emojis
 
 if __name__ == "__main__":
-    # Llamar a la función con el path correcto
-    q2_memory(file_path)
     cProfile.run("q2_memory(file_path)", sort='tottime')

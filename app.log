@@ -1,0 +1,218 @@
+2024-10-20 17:39:02,146 - INFO - [(datetime.date(2021, 2, 12), 'RanbirS00614606'), (datetime.date(2021, 2, 13), 'MaanDee08215437'), (datetime.date(2021, 2, 14), 'rebelpacifist'), (datetime.date(2021, 2, 15), 'jot__b'), (datetime.date(2021, 2, 16), 'jot__b'), (datetime.date(2021, 2, 17), 'RaaJVinderkaur'), (datetime.date(2021, 2, 18), 'neetuanjle_nitu'), (datetime.date(2021, 2, 19), 'Preetm91'), (datetime.date(2021, 2, 20), 'MangalJ23056160'), (datetime.date(2021, 2, 23), 'Surrypuria')]
+2024-10-20 17:40:27,539 - INFO - Ejecutando función
+2024-10-20 17:40:33,700 - INFO - [(datetime.date(2021, 2, 12), 'RanbirS00614606'), (datetime.date(2021, 2, 13), 'MaanDee08215437'), (datetime.date(2021, 2, 14), 'rebelpacifist'), (datetime.date(2021, 2, 15), 'jot__b'), (datetime.date(2021, 2, 16), 'jot__b'), (datetime.date(2021, 2, 17), 'RaaJVinderkaur'), (datetime.date(2021, 2, 18), 'neetuanjle_nitu'), (datetime.date(2021, 2, 19), 'Preetm91'), (datetime.date(2021, 2, 20), 'MangalJ23056160'), (datetime.date(2021, 2, 23), 'Surrypuria')]
+2024-10-20 17:40:46,385 - INFO - Fin de la ejecución
+2024-10-20 17:41:21,212 - INFO - Ejecutando función
+2024-10-20 17:41:27,537 - INFO - [(datetime.date(2021, 2, 12), 'RanbirS00614606'), (datetime.date(2021, 2, 13), 'MaanDee08215437'), (datetime.date(2021, 2, 14), 'rebelpacifist'), (datetime.date(2021, 2, 15), 'jot__b'), (datetime.date(2021, 2, 16), 'jot__b'), (datetime.date(2021, 2, 17), 'RaaJVinderkaur'), (datetime.date(2021, 2, 18), 'neetuanjle_nitu'), (datetime.date(2021, 2, 19), 'Preetm91'), (datetime.date(2021, 2, 20), 'MangalJ23056160'), (datetime.date(2021, 2, 23), 'Surrypuria')]
+2024-10-20 17:41:40,492 - INFO - Fin de la ejecución
+2024-10-20 17:42:32,881 - INFO - Ejecutando función
+2024-10-20 17:42:47,717 - INFO - [(datetime.date(2021, 2, 12), 'RanbirS00614606'), (datetime.date(2021, 2, 13), 'MaanDee08215437'), (datetime.date(2021, 2, 14), 'rebelpacifist'), (datetime.date(2021, 2, 15), 'jot__b'), (datetime.date(2021, 2, 16), 'jot__b'), (datetime.date(2021, 2, 17), 'RaaJVinderkaur'), (datetime.date(2021, 2, 18), 'neetuanjle_nitu'), (datetime.date(2021, 2, 19), 'Preetm91'), (datetime.date(2021, 2, 20), 'MangalJ23056160'), (datetime.date(2021, 2, 23), 'Surrypuria')]
+2024-10-20 18:49:40,073 - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+2024-10-20 18:49:40,124 - INFO - State start
+2024-10-20 18:49:40,144 - INFO -   Scheduler at:     tcp://127.0.0.1:63607
+2024-10-20 18:49:40,144 - INFO -   dashboard at:  http://127.0.0.1:8787/status
+2024-10-20 18:49:40,284 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63620'
+2024-10-20 18:49:40,287 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63621'
+2024-10-20 18:49:40,288 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63617'
+2024-10-20 18:49:40,289 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63615'
+2024-10-20 18:49:40,292 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63613'
+2024-10-20 18:49:40,294 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63610'
+2024-10-20 18:49:40,296 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63618'
+2024-10-20 18:49:40,297 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63611'
+2024-10-20 18:49:40,302 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63616'
+2024-10-20 18:49:40,305 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63612'
+2024-10-20 18:49:40,308 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63619'
+2024-10-20 18:49:40,316 - INFO -         Start Nanny at: 'tcp://127.0.0.1:63614'
+2024-10-20 18:49:45,558 - INFO -       Start worker at:      tcp://127.0.0.1:63641
+2024-10-20 18:49:45,558 - INFO -          Listening to:      tcp://127.0.0.1:63641
+2024-10-20 18:49:45,558 - INFO -           Worker name:                          0
+2024-10-20 18:49:45,558 - INFO -          dashboard at:            127.0.0.1:63646
+2024-10-20 18:49:45,558 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,558 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,559 - INFO -               Threads:                          1
+2024-10-20 18:49:45,559 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,559 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-y5bo9tjl
+2024-10-20 18:49:45,559 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,567 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63641', name: 0, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,567 - INFO - Starting worker compute stream, tcp://127.0.0.1:63641
+2024-10-20 18:49:45,568 - INFO - Starting established connection to tcp://127.0.0.1:63647
+2024-10-20 18:49:45,568 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,569 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,570 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,608 - INFO -       Start worker at:      tcp://127.0.0.1:63650
+2024-10-20 18:49:45,608 - INFO -          Listening to:      tcp://127.0.0.1:63650
+2024-10-20 18:49:45,608 - INFO -           Worker name:                          8
+2024-10-20 18:49:45,608 - INFO -          dashboard at:            127.0.0.1:63651
+2024-10-20 18:49:45,608 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,608 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,608 - INFO -               Threads:                          1
+2024-10-20 18:49:45,608 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,608 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-v8hqssjw
+2024-10-20 18:49:45,608 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,614 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63650', name: 8, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,614 - INFO - Starting worker compute stream, tcp://127.0.0.1:63650
+2024-10-20 18:49:45,615 - INFO - Starting established connection to tcp://127.0.0.1:63652
+2024-10-20 18:49:45,615 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,615 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,616 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,651 - INFO -       Start worker at:      tcp://127.0.0.1:63653
+2024-10-20 18:49:45,651 - INFO -          Listening to:      tcp://127.0.0.1:63653
+2024-10-20 18:49:45,651 - INFO -           Worker name:                         11
+2024-10-20 18:49:45,651 - INFO -          dashboard at:            127.0.0.1:63668
+2024-10-20 18:49:45,651 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,651 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,651 - INFO -               Threads:                          1
+2024-10-20 18:49:45,651 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,651 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-0u9yf4zt
+2024-10-20 18:49:45,651 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,656 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63653', name: 11, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,656 - INFO - Starting worker compute stream, tcp://127.0.0.1:63653
+2024-10-20 18:49:45,657 - INFO - Starting established connection to tcp://127.0.0.1:63669
+2024-10-20 18:49:45,657 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,657 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,658 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,665 - INFO -       Start worker at:      tcp://127.0.0.1:63664
+2024-10-20 18:49:45,666 - INFO -          Listening to:      tcp://127.0.0.1:63664
+2024-10-20 18:49:45,666 - INFO -           Worker name:                          6
+2024-10-20 18:49:45,666 - INFO -          dashboard at:            127.0.0.1:63670
+2024-10-20 18:49:45,666 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,666 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,666 - INFO -               Threads:                          1
+2024-10-20 18:49:45,666 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,666 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-loql6s9z
+2024-10-20 18:49:45,666 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,671 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63664', name: 6, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,671 - INFO - Starting worker compute stream, tcp://127.0.0.1:63664
+2024-10-20 18:49:45,671 - INFO - Starting established connection to tcp://127.0.0.1:63671
+2024-10-20 18:49:45,671 - INFO -       Start worker at:      tcp://127.0.0.1:63665
+2024-10-20 18:49:45,671 - INFO -          Listening to:      tcp://127.0.0.1:63665
+2024-10-20 18:49:45,671 - INFO -           Worker name:                          3
+2024-10-20 18:49:45,671 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,671 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,671 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,671 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,671 - INFO -               Threads:                          1
+2024-10-20 18:49:45,671 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,671 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-kblbekzb
+2024-10-20 18:49:45,671 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,672 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,676 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63665', name: 3, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,676 - INFO - Starting worker compute stream, tcp://127.0.0.1:63665
+2024-10-20 18:49:45,676 - INFO - Starting established connection to tcp://127.0.0.1:63673
+2024-10-20 18:49:45,676 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,676 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,677 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,733 - INFO -       Start worker at:      tcp://127.0.0.1:63674
+2024-10-20 18:49:45,734 - INFO -          Listening to:      tcp://127.0.0.1:63674
+2024-10-20 18:49:45,734 - INFO -           Worker name:                         10
+2024-10-20 18:49:45,734 - INFO -          dashboard at:            127.0.0.1:63679
+2024-10-20 18:49:45,734 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,734 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,734 - INFO -               Threads:                          1
+2024-10-20 18:49:45,734 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,734 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-bpcn44bp
+2024-10-20 18:49:45,734 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,737 - INFO -       Start worker at:      tcp://127.0.0.1:63675
+2024-10-20 18:49:45,737 - INFO -          Listening to:      tcp://127.0.0.1:63675
+2024-10-20 18:49:45,737 - INFO -           Worker name:                          2
+2024-10-20 18:49:45,737 - INFO -          dashboard at:            127.0.0.1:63681
+2024-10-20 18:49:45,737 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,737 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,737 - INFO -               Threads:                          1
+2024-10-20 18:49:45,737 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,737 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-x09lbqbq
+2024-10-20 18:49:45,737 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,739 - INFO -       Start worker at:      tcp://127.0.0.1:63676
+2024-10-20 18:49:45,739 - INFO -          Listening to:      tcp://127.0.0.1:63676
+2024-10-20 18:49:45,739 - INFO -           Worker name:                          5
+2024-10-20 18:49:45,739 - INFO -          dashboard at:            127.0.0.1:63683
+2024-10-20 18:49:45,739 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,739 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,739 - INFO -               Threads:                          1
+2024-10-20 18:49:45,739 - INFO -       Start worker at:      tcp://127.0.0.1:63677
+2024-10-20 18:49:45,740 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,740 - INFO -          Listening to:      tcp://127.0.0.1:63677
+2024-10-20 18:49:45,740 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-s01gsoar
+2024-10-20 18:49:45,740 - INFO -           Worker name:                          4
+2024-10-20 18:49:45,740 - INFO -          dashboard at:            127.0.0.1:63684
+2024-10-20 18:49:45,740 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,740 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,740 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,740 - INFO -               Threads:                          1
+2024-10-20 18:49:45,740 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,740 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-d_s21jq3
+2024-10-20 18:49:45,740 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,741 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63674', name: 10, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,741 - INFO - Starting worker compute stream, tcp://127.0.0.1:63674
+2024-10-20 18:49:45,741 - INFO - Starting established connection to tcp://127.0.0.1:63680
+2024-10-20 18:49:45,741 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,741 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,743 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,743 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63675', name: 2, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,743 - INFO - Starting worker compute stream, tcp://127.0.0.1:63675
+2024-10-20 18:49:45,743 - INFO - Starting established connection to tcp://127.0.0.1:63682
+2024-10-20 18:49:45,744 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,744 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,745 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,745 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63676', name: 5, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,746 - INFO - Starting worker compute stream, tcp://127.0.0.1:63676
+2024-10-20 18:49:45,746 - INFO - Starting established connection to tcp://127.0.0.1:63685
+2024-10-20 18:49:45,746 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,747 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,747 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63677', name: 4, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,747 - INFO - Starting worker compute stream, tcp://127.0.0.1:63677
+2024-10-20 18:49:45,747 - INFO - Starting established connection to tcp://127.0.0.1:63686
+2024-10-20 18:49:45,747 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,747 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,747 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,749 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,757 - INFO -       Start worker at:      tcp://127.0.0.1:63678
+2024-10-20 18:49:45,757 - INFO -          Listening to:      tcp://127.0.0.1:63678
+2024-10-20 18:49:45,757 - INFO -           Worker name:                          1
+2024-10-20 18:49:45,757 - INFO -          dashboard at:            127.0.0.1:63687
+2024-10-20 18:49:45,757 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,757 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,757 - INFO -               Threads:                          1
+2024-10-20 18:49:45,757 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,757 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-wm_cge98
+2024-10-20 18:49:45,757 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,761 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63678', name: 1, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,761 - INFO - Starting worker compute stream, tcp://127.0.0.1:63678
+2024-10-20 18:49:45,761 - INFO - Starting established connection to tcp://127.0.0.1:63689
+2024-10-20 18:49:45,761 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,761 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,763 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,778 - INFO -       Start worker at:      tcp://127.0.0.1:63688
+2024-10-20 18:49:45,778 - INFO -          Listening to:      tcp://127.0.0.1:63688
+2024-10-20 18:49:45,778 - INFO -           Worker name:                          7
+2024-10-20 18:49:45,778 - INFO -          dashboard at:            127.0.0.1:63691
+2024-10-20 18:49:45,778 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,778 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,778 - INFO -               Threads:                          1
+2024-10-20 18:49:45,778 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,778 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-luqj2b80
+2024-10-20 18:49:45,778 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,782 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63688', name: 7, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,782 - INFO - Starting worker compute stream, tcp://127.0.0.1:63688
+2024-10-20 18:49:45,782 - INFO - Starting established connection to tcp://127.0.0.1:63692
+2024-10-20 18:49:45,782 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,782 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,784 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,792 - INFO -       Start worker at:      tcp://127.0.0.1:63690
+2024-10-20 18:49:45,792 - INFO -          Listening to:      tcp://127.0.0.1:63690
+2024-10-20 18:49:45,792 - INFO -           Worker name:                          9
+2024-10-20 18:49:45,792 - INFO -          dashboard at:            127.0.0.1:63693
+2024-10-20 18:49:45,792 - INFO - Waiting to connect to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,792 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,792 - INFO -               Threads:                          1
+2024-10-20 18:49:45,792 - INFO -                Memory:                   1.28 GiB
+2024-10-20 18:49:45,792 - INFO -       Local Directory: C:\Users\JUANPA~1\AppData\Local\Temp\dask-scratch-space\worker-vw7ln1h5
+2024-10-20 18:49:45,792 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,796 - INFO - Register worker <WorkerState 'tcp://127.0.0.1:63690', name: 9, status: init, memory: 0, processing: 0>
+2024-10-20 18:49:45,797 - INFO - Starting worker compute stream, tcp://127.0.0.1:63690
+2024-10-20 18:49:45,797 - INFO - Starting established connection to tcp://127.0.0.1:63694
+2024-10-20 18:49:45,797 - INFO -         Registered to:      tcp://127.0.0.1:63607
+2024-10-20 18:49:45,797 - INFO - -------------------------------------------------
+2024-10-20 18:49:45,798 - INFO - Starting established connection to tcp://127.0.0.1:63607
+2024-10-20 18:49:45,864 - INFO - Receive client connection: Client-336fbdfa-8f2d-11ef-bb54-dc46280b079c
+2024-10-20 18:49:45,864 - INFO - Starting established connection to tcp://127.0.0.1:63695

@@ -1,33 +1,43 @@
-import json
 from typing import List, Tuple
 from datetime import datetime
 from base import Base
 import pandas as pd
 from memory_profiler import profile, memory_usage
 import cProfile
+from concurrent.futures import ThreadPoolExecutor
+import numpy as np
 
 file_path = Base().twiter_file_path
 
+def process_chunk(chunk):
+    chunk['date'] = pd.to_datetime(chunk['date']).dt.date
+    chunk['user'] = chunk['user'].apply(lambda x: x['username'] if isinstance(x, dict) else None)
+    
+    # Obtener los 10 usuarios más comunes por fecha
+    top_dates = chunk['date'].value_counts().nlargest(10).index
+    df_top_dates = chunk[chunk['date'].isin(top_dates)]
+    
+    return df_top_dates.groupby('date')['user'].agg(lambda x: x.value_counts().idxmax()).reset_index()
+
 @profile
-def q1_time(file_path) -> List[Tuple[datetime.date, str]]: #1490 MiB max, 26.44s
+def q1_time(file_path: str) -> List[Tuple[datetime.date, str]]:#1521 MiB, 6.5s
     # Leer el archivo JSON directamente en pandas (asumiendo un formato JSON por línea)
     df = pd.read_json(file_path, lines=True)
-    df['date'] = pd.to_datetime(df['date']).dt.date
-    df['user'] = df['user'].apply(lambda x: x['username'] if isinstance(x, dict) else None)
 
-    # Obtener las 10 fechas con más tweets
-    top_dates = df['date'].value_counts().nlargest(10).index
+    # Dividir el DataFrame en bloques para el procesamiento en paralelo
+    num_workers = 4
+    chunks = np.array_split(df, num_workers)
 
-    # Filtrar los tweets en las 10 fechas principales
-    df_top_dates = df[df['date'].isin(top_dates)]
+    # Procesar en paralelo usando ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=num_workers) as executor:
+        results = list(executor.map(process_chunk, chunks))
 
-    # Obtener el usuario con más tweets por cada una de las fechas principales
-    result = df_top_dates.groupby('date')['user'].agg(lambda x: x.value_counts().idxmax()).reset_index()
+    # Combinar los resultados
+    combined_result = pd.concat(results).groupby('date')['user'].agg(lambda x: x.value_counts().idxmax()).reset_index()
 
     # Convertir a lista de tuplas
-    return list(result.itertuples(index=False, name=None))
+    return list(combined_result.itertuples(index=False, name=None))
 
 if __name__ == "__main__":
-    q1_time(file_path)
-    cProfile.run("q1_time2(file_path)", sort="tottime")
+    cProfile.run("q1_time(file_path)", sort="tottime")
 
