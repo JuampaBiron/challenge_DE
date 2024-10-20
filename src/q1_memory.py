@@ -10,7 +10,7 @@ from collections import defaultdict, Counter
 file_path = Base().twiter_file_path
 
 #@profile
-def q1_memory_1(file_path) -> List[Tuple[datetime.date, str]]: #474 MiB max, 31.97s
+def q1_memory_1(file_path) -> List[Tuple[datetime.date, str]]: #474 MiB max, 31.97ss
     content_list = []
     with open(file_path, 'r', encoding='utf-8') as file:
             for obj in file:
